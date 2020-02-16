@@ -28,10 +28,10 @@ In search of a front-end  position where I can work with diversified and creativ
 
 ### Education
 
-+ [*Belarusian State University of Informatics and Radioelectronics*](https://bsuir.by), *Master's Degree*
-+ [*HTML academy*](https://htmlacademy.ru/), *Basics of HTML and CSS*
-+ *Oracle PL/SQL course*
-+ *English courses (Intermediate level)*
++ [Belarusian State University of Informatics and Radioelectronics](https://bsuir.by), Master's Degree
++ [HTML academy](https://htmlacademy.ru/), Basics of HTML and CSS
++ Oracle PL/SQL course
++ English courses (Intermediate level)
 
 ### Skills
 + JavaScript
