@@ -9,11 +9,12 @@ Age: **28**
 Location: **Belarus, Minsk**
 
 ### Contact info
+
 | communication method  | info                       |   
 |          :---:        |           :---:            |  
 | Email                 | _dy.rschool2020@gmail.com_ |  
 | Phone Number          | _+37511441234666_          |  
-| Skype                 | _dy.rschool2020_           |  
+| Skype                 | _dy.rschool2020_           |
 
 ### Objective
 In search of a front-end  position where I can work with diversified and creative projects
