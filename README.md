@@ -1,2 +1,2 @@
 # rsschool-cv
-rolling school tasks
+[Link to my CV file](https://dymere.github.io/rsschool-cv/cv)
