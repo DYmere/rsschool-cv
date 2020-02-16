@@ -73,3 +73,6 @@ class ForgeHandler(BaseHTTPRequestHandler):
             text="<h1 align=center>Bad request</h1>"
             self.func_PRINT(text)
 ```
+
+### Additional info
+Ready to move to another city
