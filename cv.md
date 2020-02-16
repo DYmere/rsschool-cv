@@ -10,7 +10,7 @@ Location: **Belarus, Minsk**
 
 ### Contact info
 | communication method  | info                       |   
-|:---------------------:|:--------------------------:|  
+|          :---:        |           :---:            |  
 | Email                 | _dy.rschool2020@gmail.com_ |  
 | Phone Number          | _+37511441234666_          |  
 | Skype                 | _dy.rschool2020_           |  
