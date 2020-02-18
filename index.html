@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Resume</h1>
+    </header>
+    <hr>
+      <div itemscope itemtype="http://schema.org/Person">
+      <section>
+        <h3>Personal information</h3>
+        <img src="black-white.png" alt="Photo"><br>
+        First name: <b><span itemprop="givenName">Dzmitry</span></b><br>
+        Last Name: <b><span itemprop="familyName">Yatsyna</span></b><br>
+        Age: <b>28</b><br>
+        <span itemprop="address">Location: <b>Belarus, Minsk</b></span>
+      </section>
+      <section>
+        <h3>Contact info</h3>
+        <table>
+          <tr>
+            <th>communication method</th><th>info</th>
+          </tr>
+          <tr>
+	          <td>Email</td><td><i><span itemprop="email">dy.rschool2020@gmail.com</span></i></td>
+          </tr>
+          <tr>
+	          <td>Phone Number</td><td><i><span itemprop="telephone">+37511441234666</span></i></td>
+          </tr>
+          <tr>
+	          <td>Skype</td><td><i>dy.rschool2020</i></td>
+          </tr>
+        </table>
+	    </section>
+      <section>
+	      <h3>Objective</h3>
+	      In search of a front-end position where I can work with diversified and creative projects
+	    </section>
+      <section>
+	      <h3>Work Experience</h3>
+        2015 — 2019 “JSSS” Com, Belarus, Minsk System Administrator
+        <ul>
+          <li>Development, configuration and maintenance of the company’s infrastructure</li>
+          <li>Development and support of a monitoring system</li>
+        </ul>
+      </section>
+      <section>
+	      <h3>Education</h3>
+	      <ul>
+	        <li>
+	          <a itemprop="alumniOf" href="https://bsuir.by">Belarusian State University of Informatics and Radioelectronics, Master’s Degree</a>
+          </li>
+          <li>
+            <a href="https://htmlacademy.ru/">HTML academy, Basics of HTML and CSS</a>
+          </li>
+          <li>Oracle PL/SQL course</li>
+          <li>English courses</li>
+        </ul>
+	    </section>
+      <section>
+	      <h3>Skills</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Unix/Linux</li>
+          <li>Python</li>
+        </ul>
+	    </section>
+      <section>
+	      <h3>Language known</h3>
+	      <ul>
+	        <li><span itemprop="knowsLanguage">Belarusian</span></li>
+	        <li><span itemprop="knowsLanguage">Russian</span></li>
+	        <li><span itemprop="knowsLanguage">English</span> (Intermediate level)</li>
+	      </ul>
+	    </section>
+      <section>
+	      <h3>Code example</h3>
+		    <pre>
+	        <code>
+class ForgeHandler(BaseHTTPRequestHandler):
+"""
+The handler parse the request and the headers, then call a method specific to the request type
+"""
+  def do_GET(self):
+  """
+  'GET' request serving function
+  """
+    global st_point, cur_request
+    if time.time() - st_point &lt; 1 and cur_request &gt; args.MAX_REQ:
+      self.send_response(429)
+      self.send_header("Content-type","text/html")
+      self.end_headers()
+      time.sleep(0.2)
+      return
+    elif time.time() - st_point &gt; 1:
+      st_point = time.time()
+      cur_request = 1
+    self.func_PARSE()
+      if self.parsed_url[2] in ["/ping", "/cats"]:
+        self.func_DO()
+      else:
+        self.send_response(400)
+        text="&lt;h1 align=center>Bad request&lt;/h1&gt;"
+        self.func_PRINT(text)
+          </code>
+        </pre>
+      </section>
+      <section>
+	      <h3>Additional info</h3>
+	      Ready to move to another city
+	    </section>
+    </div>
+  </body>
+</html>
