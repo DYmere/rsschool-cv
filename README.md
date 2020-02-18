@@ -1,2 +1,2 @@
 # rsschool-cv
-[Link to my CV file](https://dymere.github.io/rsschool-cv/)
+[Link to my page](https://dymere.github.io/rsschool-cv/)
