@@ -1,0 +1,27 @@
+hr {
+  background-color: black;
+  height: 1px;
+}
+
+body {
+  width: 1024px;
+  margin: auto;
+  font-family: "Proxima Nova", "Helvetica", "Georgia", sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 3px solid black;
+}
+td {
+  border: 2px solid black;
+  text-align: center;
+}
